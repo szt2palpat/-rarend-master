@@ -55,7 +55,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between; 
+    justify-content: space-between;
+    color: #000; 
 }
 
 .day {
@@ -101,3 +102,9 @@ h1 {
             border-bottom: 20px solid transparent;
             border-top: 20px solid #fff; 
         }
+h1{
+    color: #000;
+}
+label{
+    color: #000;
+}
