@@ -1,28 +1,17 @@
 
 :root {
-    --background-color: #f4f4f4; 
-    --text-color: #000; 
-    
+   --light-background-color: white;
+   --light-color:black;
+   --light-container-background-color:rgba(255, 255, 255, 0.7);
+   --light-day-background-color:  #fff;;
+   --light-card-background: #f0f0f0;
+   --dark-background-color:black;
+   --dark-color:white;
+   --dark-container-background-color: rgba(0,0,0,0, 0.7) ;
+   --dark-day-background-color:black ;
+   --dark-card-background-color:grey;
 }
 
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-
-}
-
-
-:root {
-    --background-color: #333; 
-    --text-color: #fff; 
-   
-}
-
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    
-}
 
 * {
     margin: 0;
